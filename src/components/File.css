@@ -1,0 +1,37 @@
+.file-container{
+    width: 90%;
+    height: 50px;
+    border-radius: 2px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+    padding: 5px;
+    margin: 10px auto;
+    border-bottom: 2px solid #333;
+}
+
+
+.btn{
+    border:2px solid #d9534f;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: #888;
+    margin-left:5px ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: white;
+}
+.btn:hover{
+    background-color:#d9534f;
+    color: white;
+}
+.icon{
+    width: 30px;
+    height: 30px;
+    background: url("../assets/trash.png") cover;
+    border: none;
+}
+.file-id{
+    display: flex;
+    align-items: center;
+}

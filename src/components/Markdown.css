@@ -1,0 +1,14 @@
+textarea{
+    resize: none;
+    width: 90%;
+    height: 90%;
+    outline: none;
+    padding: 2%;
+    font-size: 1.5rem;
+}
+
+.writing_window{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 80vh;
+    width: 100%;
+}

@@ -1,0 +1,13 @@
+.status-container{
+    width: 100%;
+    background-color: #3D4853;
+    position: fixed;
+    top: 0;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    -webkit-box-shadow: -1px 10px 12px -7px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 10px 12px -7px rgba(0,0,0,0.75);
+    box-shadow: -1px 10px 12px -7px rgba(0,0,0,0.75);
+}
