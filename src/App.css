@@ -1,74 +1,93 @@
-*{
-    margin: 0;
-    padding: 0;
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-::-webkit-scrollbar {
-    width: 10px;
-  }
-  
-  /* Track */
-  ::-webkit-scrollbar-track {
-    background: #f1f1f1; 
-  }
-   
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    border-radius: 8%;
-    background: #888; 
-  }
-  
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-    background: #555; 
-  }
-.btn_{
-    background-color: #d9534f;
-    padding: 8px 15px;
-    border-radius: 5px;
-    margin: auto;
 
-    border: none;
-    color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+::-webkit-scrollbar {
+  width: 10px;
 }
-.btn_:hover{
-    background-color: #888;
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
 }
-.App{
-    margin-top: 1vh;
-    height: 80vh;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    background-color: aqua;
-   
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background: #888;
 }
-.Footer{
-    text-align: center;
-    padding: 1vh;
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }
-.twitter, .github{
+
+.btn_ {
+  background-color: #d9534f;
+  padding: 8px 15px;
+  border-radius: 5px;
+  margin: auto;
+  cursor: pointer;
+  border: none;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.btn-reset{
+  border: none;
+  background: none;
+}
+.btn_:hover {
+  background-color: #888;
+}
+
+.App {
+  margin-top: 1vh;
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  background-color: aqua;
+
+}
+
+.Footer {
+  text-align: center;
+  padding: 1vh;
+}
+
+.twitter,
+.github {
   width: 30px;
   height: 30px;
   margin-left: 2px;
 }
-.note{
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+.note {
+  word-break: break-all;
 
 }
-.footer-inner{
+
+.footer-inner {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
 }
-@media print
-      {
-         @page {
-           margin-top: 0;
-           margin-bottom: 0;
-         }
-         body  {
-           padding-top: 72px;
-           padding-bottom: 72px ;
-         }
-      } 
+
+html{
+  font-family: 'Noto Sans', sans-serif;
+}
+
+/* @media print {
+  @page {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  body {
+    padding-top: 72px;
+    padding-bottom: 72px;
+  }
+} */

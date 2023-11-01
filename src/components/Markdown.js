@@ -4,17 +4,15 @@ import './Markdown.css'
 import MdEditor from 'react-markdown-editor-lite';
 import "react-markdown-editor-lite/lib/index.css";
 
-function Markdown(props) {
+function Markdown({value, sethtml}) {
   
   const handleEditorChange = (e) => {
-    
-    props.setValue(e.text);
-    props.sethtml(e.text)
+    sethtml(e.text)
   };
+
   return (
     <div className='writing_window' id='writingwindow'>
-        {/* <textarea className='txtarea' onKeyDownCapture={changeHandler} onClick={(e)=>{console.log(e)}} ></textarea> */}
-        <MdEditor style={{ height: '100%' }} value={props.value} renderHTML={text => marked.parse(text)} onChange={handleEditorChange} />
+        <MdEditor style={{ height: '100%' }} value={value} renderHTML={text => marked.parse(text)} onChange={handleEditorChange} />
     </div>
   )
 }

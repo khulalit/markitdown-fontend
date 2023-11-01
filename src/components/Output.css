@@ -17,3 +17,8 @@
     width: 100%;
     background-color: white;
 }
+
+.output_window .btns{
+    display: flex;
+    justify-content: start;
+}
